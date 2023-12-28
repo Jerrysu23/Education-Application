@@ -1,0 +1,2660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>View</class>
+ <widget class="QMainWindow" name="View">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>View</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="QWidget" name="page0_welcomePage">
+       <widget class="PhysicsSceneWidget" name="PhysicsWindow_2" native="true">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>761</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <widget class="QPushButton" name="startLearningButton">
+         <property name="geometry">
+          <rect>
+           <x>289</x>
+           <y>310</y>
+           <width>231</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Academy Engraved LET</family>
+           <pointsize>19</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+         </property>
+         <property name="text">
+          <string>Start Learning</string>
+         </property>
+        </widget>
+        <widget class="textBox2DAnimationWidget" name="textPhysicsWidget" native="true">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>60</y>
+           <width>591</width>
+           <height>91</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page1_menuPage">
+       <widget class="QPushButton" name="learningPathButton">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>100</y>
+          <width>240</width>
+          <height>66</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 60, 20, 1);</string>
+        </property>
+        <property name="text">
+         <string>Learning Path</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="backToWelcomeScreenButton">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>380</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(35, 35, 35, 1);</string>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="budgetingSimulatorButton">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>180</y>
+          <width>240</width>
+          <height>66</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 80, 20, 1);</string>
+        </property>
+        <property name="text">
+         <string>Budget Simulator</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="investingSimulatorButton">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>260</y>
+          <width>240</width>
+          <height>66</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 100, 20, 1);</string>
+        </property>
+        <property name="text">
+         <string>Investing Simulator</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page2_learningPathPage">
+       <widget class="QLabel" name="learningPathHeader">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>10</y>
+          <width>321</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>32</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Learning Path</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section1Module1Button">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>150</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 1: 
+
+Budgeting 
+Basics</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section1Module2Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>170</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 2:
+
+Creating Your
+Budget</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section1Module3Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>160</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 3:
+
+Budgeting
+ Tips</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section1Module4Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>180</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 4:
+
+Savings and
+Debt Payments</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section2Module1Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>330</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 1:
+
+Intro To
+Investing</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section2Module2Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>370</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 2:
+
+Investing
+Options</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section2Module3Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>380</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 3
+
+Compound
+Interest</string>
+        </property>
+       </widget>
+       <widget class="Line" name="line2">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>300</y>
+          <width>801</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line1">
+        <property name="geometry">
+         <rect>
+          <x>-3</x>
+          <y>80</y>
+          <width>791</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="learningPathSection1Header">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>100</y>
+          <width>411</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Section 1: Budgeting &amp; Saving</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section1Quiz1Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>190</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(217, 86, 42, 255), stop:1 rgba(193, 50, 50, 255));
+}
+
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 255), stop:1 rgba(203, 60, 60, 255));
+}
+
+QPushButton:disabled{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 50), stop:1 rgba(203, 60, 60, 50));
+}</string>
+        </property>
+        <property name="text">
+         <string>Quiz 1</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="learningPathSection2Header">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>320</y>
+          <width>271</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Section 2: Investing</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section1Quiz2Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>200</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(217, 86, 42, 255), stop:1 rgba(193, 50, 50, 255));
+}
+
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 255), stop:1 rgba(203, 60, 60, 255));
+}
+
+QPushButton:disabled{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 50), stop:1 rgba(203, 60, 60, 50));
+}</string>
+        </property>
+        <property name="text">
+         <string>Quiz 2</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section2Module4Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>400</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Module 4
+
+The Stock
+Market</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section2Quiz1Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>420</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(217, 86, 42, 255), stop:1 rgba(193, 50, 50, 255));
+}
+
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 255), stop:1 rgba(203, 60, 60, 255));
+}
+
+QPushButton:disabled{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 50), stop:1 rgba(203, 60, 60, 50));
+}</string>
+        </property>
+        <property name="text">
+         <string>Quiz 1</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="section2Quiz2Button">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>430</y>
+          <width>90</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(217, 86, 42, 255), stop:1 rgba(193, 50, 50, 255));
+}
+
+QPushButton:hover{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 255), stop:1 rgba(203, 60, 60, 255));
+}
+
+QPushButton:disabled{
+background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(227, 96, 52, 50), stop:1 rgba(203, 60, 60, 50));
+}</string>
+        </property>
+        <property name="text">
+         <string>Quiz 2</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="mainMenuLearningPathButton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(35, 35, 35, 1);</string>
+        </property>
+        <property name="text">
+         <string>Main Menu</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page3_budgetingSimulatorPage">
+       <widget class="QLabel" name="monthlyIncomeLabel">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>0</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Monthly Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="montlyExpensesLabel">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>140</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Monthly Expenses </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlySummaryLabel">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>0</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Monthly Summary</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="yearlySummaryLabel">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>120</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Yearly Summary</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="grossIncomeLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is your income before deductions (taxes, expected witholdings, etc.)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>Gross Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="expectedWitholdingsLabl">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;These are the expected deductions before you receive your paycheck. Oftentimes this comes to about 18% of your total compensation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>Expected Witholdings</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="netIncomeLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>90</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is what you will receive as your paycheck after the expected witholdings. This is important because this is what money you will actually have to spend.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>Net Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="housingLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>170</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Housing</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="foodLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>230</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Food</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="utilitiesLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>200</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Utilities</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="personalCarLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>260</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Personal Care</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="transportationLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>290</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Transportation</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="givingLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>350</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Giving</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="miscLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>470</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Miscellaneous</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="entertainmentLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>410</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Entertainment</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="insuranceLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>320</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Insurance</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="medicalLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>440</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Medical/Healthcare</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="savingsLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>380</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Savings</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="netIncomeMonthlySummaryLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>30</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Net Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="totalExpensesMonthlySummaryLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>60</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Total Expenses</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlyDiscretionaryIncomeLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>90</y>
+          <width>141</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Discretionary Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="netIncomeYearlySummaryLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>150</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Net Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="yearlyDiscretionaryIncomeLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>210</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Discretionary Income</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="totalExpensesYearlySummaryLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>180</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Total Expenses</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="calculateBudgetSummariesButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>500</y>
+          <width>291</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+        </property>
+        <property name="text">
+         <string>Calculate Summaries</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="grossIncomeLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>30</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="housingLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>170</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="utilitiesLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>200</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="foodLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>230</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="personalCareLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>260</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="transportationLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>290</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="insuranceLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>320</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="givingLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>350</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="savingsLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>380</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="entertainmentLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>410</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="medicalLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>440</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="miscLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>470</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlySummaryNetIncomeDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>30</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlySummaryTotalExpensesDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>60</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlySummaryDiscretionaryIncomeDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>90</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="yearlySummaryNetIncomeDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>150</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="yearlySummaryTotalExpensesDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>180</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="yearlySummaryDiscretionaryIncomeDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>210</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlyIncomeCalculatedLabel">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>90</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="calculatedExpectedWitholdingsLabel">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>60</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="calculateMonthlyIncomeButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>110</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+        </property>
+        <property name="text">
+         <string>Calculate Monthly Income</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="populateSuggestedCateogoriesButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>520</y>
+          <width>291</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+        </property>
+        <property name="text">
+         <string>Populate Categories With Suggested Budget</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="mainMenuBudgetPageButton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>91</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(35, 35, 35, 1);</string>
+        </property>
+        <property name="text">
+         <string>Main Menu</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pieChartImageLabel">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>280</y>
+          <width>401</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>pieChart.png</pixmap>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>260</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Suggested Category Percentages</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="showPercentagesCheckBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>140</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Show Percentages</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>30</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>60</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>90</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money1">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>170</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>200</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money3">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>230</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>260</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money5">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>290</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money6">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>320</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money7">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>350</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money8">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>380</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money9">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>410</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money11">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>440</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="money10">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>470</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>30</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>60</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>90</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>150</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>180</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>210</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>170</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>200</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_3">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>230</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_4">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>260</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_5">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>290</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_6">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>320</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_7">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>350</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_8">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>380</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_9">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>410</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_10">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>440</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percent_11">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>470</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page4_investingSimulatorPage">
+       <widget class="QLineEdit" name="InitialAmountLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>130</y>
+          <width>113</width>
+          <height>24</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="timeInvestedLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>170</y>
+          <width>113</width>
+          <height>24</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="interestRateLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>210</y>
+          <width>111</width>
+          <height>24</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="compoundingFrequencyLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>250</y>
+          <width>113</width>
+          <height>24</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="monthlyContributionsLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>290</y>
+          <width>113</width>
+          <height>24</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="initialAmountLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Initial Amount</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="timeInvestedLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Years Invested</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="interestRateLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>210</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rate of Return</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="compoundingFrequencyLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>250</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Compounding Periods Per Year&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monthlyContributionsLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>290</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Monthly Contribution&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="calculateButton">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>340</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+        </property>
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="finalAmountLabel">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>130</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Final Amount: </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="earningsFromInterestLabel">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>170</y>
+          <width>231</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Amount Earned From Compound Interest: </string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="mainMenuInvestingPageButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(35, 35, 35, 1);</string>
+        </property>
+        <property name="text">
+         <string>Main Menu</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="moneyLabel1">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>130</y>
+          <width>20</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="moneyLabel2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>290</y>
+          <width>20</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="percentLabel1">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>210</y>
+          <width>16</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="resultsLabel">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>60</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Results</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>210</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Total Contributions:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="totalContributionsDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>210</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="moneyLabel2_2">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>210</y>
+          <width>20</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="moneyLabel2_3">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>170</y>
+          <width>20</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="moneyLabel2_4">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>130</y>
+          <width>20</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>$</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="amountEarnedFromInterestDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>170</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="finalAmountDisplayLabel">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>130</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="resultsLabel_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>241</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Investment Variables</string>
+        </property>
+       </widget>
+       <widget class="Line" name="line1_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>761</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="compoundVsSimpleInterestGraph">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>280</y>
+          <width>401</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page5_ModuleTemplates">
+       <widget class="QStackedWidget" name="stackedWidgetModuleTemplates">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>782</width>
+          <height>539</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="moduleTemplate">
+         <widget class="QLabel" name="pageNum">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>41</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pageNextButton">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>510</y>
+            <width>80</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+          </property>
+          <property name="text">
+           <string>Continue</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="pageText">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>80</y>
+            <width>411</width>
+            <height>381</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Here is a gibberish example paragraph. There is a car blue yellow grey that is there in investment for the next one hundred and twenty seven house three and that is there. I hope you learned something about this thing that is here.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;TIP: It's a lot easier to edit this paragraph from the Property tab. Go to &amp;quot;text&amp;quot; and click the three dots, it will open up a text text editor for you.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page6_QuizTemplates">
+       <widget class="QStackedWidget" name="stackedWidgetQuizTemplates">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>0</y>
+          <width>782</width>
+          <height>539</height>
+         </rect>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="quizTemplate">
+         <widget class="QLabel" name="questionLabel">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>30</y>
+            <width>631</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Question 1</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="answerAButton">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>110</y>
+            <width>100</width>
+            <height>32</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>A</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="answerBButton">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>170</y>
+            <width>100</width>
+            <height>32</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="answerCButton">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>230</y>
+            <width>100</width>
+            <height>32</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>C</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="answerDButton">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>290</y>
+            <width>100</width>
+            <height>32</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>D</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="answerALabel">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>106</y>
+            <width>500</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Option 1</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="answerBLabel">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>166</y>
+            <width>500</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Option 2</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="answerCLabel">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>226</y>
+            <width>500</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Option 3</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="answerDLabel">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>286</y>
+            <width>500</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Option 4</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="questionNextButton">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>400</y>
+            <width>171</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+          </property>
+          <property name="text">
+           <string>Continue</string>
+          </property>
+         </widget>
+         <widget class="QProgressBar" name="quizProgressBar">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>0</y>
+            <width>118</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+         </widget>
+         <widget class="QLabel" name="quizPageNum">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>0</y>
+            <width>41</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="scoreScreen">
+         <widget class="QLabel" name="finalScoreLabel">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>225</y>
+            <width>200</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Final Score</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="scorePageButton">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>500</y>
+            <width>100</width>
+            <height>32</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+background-color: rgba(70, 200, 10, 0.8);
+}
+
+QPushButton:hover{
+background-color: rgba(75, 210, 12, 0.8);
+}
+
+QPushButton:disabled{
+background-color: rgba(70, 200, 10, 50);
+}</string>
+          </property>
+          <property name="text">
+           <string>Continue</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>125</y>
+            <width>350</width>
+            <height>101</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Congratulations on completing
+this portion of the application!
+View your score below.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="PhysicsSceneWidget" name="PhysicsWindow" native="true">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>0</y>
+            <width>761</width>
+            <height>531</height>
+           </rect>
+          </property>
+         </widget>
+         <zorder>finalScoreLabel</zorder>
+         <zorder>label_5</zorder>
+         <zorder>PhysicsWindow</zorder>
+         <zorder>scorePageButton</zorder>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PhysicsSceneWidget</class>
+   <extends>QWidget</extends>
+   <header>physicsscenewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>textBox2DAnimationWidget</class>
+   <extends>QWidget</extends>
+   <header>textbox2danimationwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

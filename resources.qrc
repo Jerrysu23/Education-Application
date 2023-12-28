@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.txt</file>
+        <file>pieChart.png</file>
+        <file>Dollar.png</file>
+        <file>compound interest.jpeg</file>
+        <file>app_title.png</file>
+    </qresource>
+</RCC>
